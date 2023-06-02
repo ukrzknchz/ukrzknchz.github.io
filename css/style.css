@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+body{
+    background: url(../img/bg.jpg) no-repeat center;
+    background-size:115%;
+}
+.container{
+    width: 1400px;
+    position: relative;
+    margin: 0 auto;
+}
+header{
+    max-height: 400px;
+    background-color: rgba(1, 0, 6, 0.67);
+}
+#logo{
+    max-width: 60%;
+}
+.nav_menu{
+    margin-top: 15%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu_link{
+    text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(228, 0, 0);
+}
+.zag{
+    margin-top: 10%;
+    font-size: 250%;
+    color: red;
+}
+.content{
+    color: #fff;
+}
+.text{
+    padding: 10% 0 10% 0;
+    max-width: 50%;
+}
+footer{
+    min-height: 90px;
+    max-height: 400px;
+    background-color: rgba(1, 0, 6, 0.67);
+    text-align: center;
+    color: #fff;
+}
+.avtor{
+    padding-top: 2%;
+}
+.firm{
+    list-style-type:none;
+}
+.car_link{
+    text-decoration: none;
+    color: #fff;
+}
+.Cars{
+    padding: 4% 0 4% 0;
+    max-width: 50%;
+}
+.trailer{
+    max-width: 150%;
+}
+.Car_inf{
+    max-width: 300%;
+}
